@@ -1,0 +1,75 @@
+
+   footer{
+      background: :grey;
+      
+      font-size: 10px;
+      padding: 20px;
+   }
+   .footer h6{
+    color:black;
+    font-size:40px;
+   }
+
+ 
+   #myCarousel {
+      margin-top: 60px;
+   }
+
+   #c1
+   {
+      padding-top:7cm;
+      font-color: blue;
+
+   }
+  
+   .carousel-caption{
+      font-size: 30px;
+   }
+   .carousel-caption h4{
+      font-size: 32px;
+      padding-bottom: 3cm;
+   }
+   
+   #myCarousel .item{ height: 200px; }
+
+   #slide1{
+       background: url('../../images/micro1.jpg') top center no-repeat;
+   }
+   
+   .lead p{
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+   }
+   
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+   
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   
+}
+
+/* Large desktop */
+@media (min-width: 900px) {
+   #myCarousel .item{ height: 400px; }
+   #slide1{
+       background: url('../../images/micro1.jpg') top center no-repeat;
+   }
+  
+
+}
+
+
+
+
+   
+   
